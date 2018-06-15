@@ -129,12 +129,12 @@ To train the model I used a learning rate of 0.001. The loss operation
 consisted of taking the mean of tf.nn.softmax_cross_entropy_with_logits.
 I used the minimize function in AdamOptimizer to update the weights.
 
-I used 10 epochs to train the model to have over 0.93 accuracy on the
+I used 31 epochs to train the model to have over 0.93 accuracy on the
 validation set. The batch size used was 256.
 
 #### 4. Describe the approach taken for finding a solution and getting the validation set accuracy to be at least 0.93. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem.
 
-My final model results were: # TODO
+My final model results were:
 * training set accuracy of 0.99887927814
 * validation set accuracy of 0.930
 * test set accuracy of 0.919002375325
